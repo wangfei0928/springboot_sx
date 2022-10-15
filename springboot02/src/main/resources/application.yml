@@ -1,0 +1,26 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /lanou
+
+spring:
+  profiles:
+    active: stu
+
+ttt:
+  id: 1
+  name: 张三
+
+  hobbys:
+    - 篮球
+    - 足球
+    - 乒乓球
+
+  maps:
+    k1: 你好
+    k2: springboot
+
+  student:
+    id: 1
+    name: 李四
+
